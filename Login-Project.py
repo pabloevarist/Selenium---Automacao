@@ -1,8 +1,8 @@
 import selenium
 from selenium import webdriver 
 #
-# Configuracao abaixo faz com que não haja problemas de compatibilidade de versao, pois o web/geck precisao ser da mesma versao do navegador. 
-# Com a configacao, mesmo que surja atualizacoes do navegador, nao sera necessario atualizar o codigo. 
+# Configuracao abaixo faz com que não haja problemas de compatibilidade de versao, pois o web/geck precisão ser da mesma versao do navegador. 
+# Com a configacao, mesmo que surja atualizacoes do navegador, não sera necessario atualizar o codigo. 
 from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.firefox.service import Service
 services = Service(GeckoDriverManager().install())
